@@ -21,6 +21,20 @@ app.get('/', (req, res) => {
     res.send('Application running, Please Use an Endpoint For API discovery')
 })
 
+//Get Userbase
+app.get('/userbase', (req, res) => {
+    knex('userbase')
+        .select('*')
+        .then(data => res.status(200).json(data))
+        .catch((err) => res.status(500).json(err));
+})
+//GET Items
+app.get('/items', (req, res) => {
+    knex('item')
+        .select('*')
+        .then(data => res.status(200).json(data))
+        .catch((err) => res.status(500).json(err));
+})
 
 app.listen(port, () => {
     console.log('Knex and Express applications running successfully')
