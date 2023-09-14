@@ -20,7 +20,9 @@ In server folder -> npm i express pg knex
 In server folder package.json -> add "start": "nodemon ./src/app.js" to dependencies.
 
 In server folder -> Run Migrations and Seeds
+
 a. Migrations: User is ran before item
+
 b. Seeds: User is ran before item
 
 Npm Start in /server directory
