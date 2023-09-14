@@ -1,6 +1,6 @@
 # zcrud-app
 
-** 1. Clone this repository
+**1. Clone this repository**
 
 **2. Front End**
 
