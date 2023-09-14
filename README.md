@@ -8,7 +8,7 @@ In frontend folder -> npm install
 
 In frontend folder -> npm install @mui/material @mui/icons-material @emotion/react @emotion/styled
 
-** . Docker**
+**3. Docker**
 
 Create a docker image and container:
 
