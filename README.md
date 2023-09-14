@@ -30,7 +30,7 @@ a. Migrations: User is ran before item
 
 b. Seeds: User is ran before item
 
-**5. NPM Start **
+**5. NPM Start**
 
 Npm Start in /server directory
 
