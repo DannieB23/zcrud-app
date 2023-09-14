@@ -8,7 +8,8 @@ In frontend folder -> npm install
 In frontend folder -> npm install @mui/material @mui/icons-material @emotion/react @emotion/styled
 
 Docker
-Create a docker image and container: docker run --rm --name pg-docker -e POSTGRES_PASSWORD=docker -d -p 5432:5432 \-v $HOME/docker/volumes/postgres:/var/lib/postgresql/data postgres
+Create a docker image and container:
+docker run --rm --name pg-docker -e POSTGRES_PASSWORD=docker -d -p 5432:5432 \-v $HOME/docker/volumes/postgres:/var/lib/postgresql/data postgres
 
 Create a Database In Docker named -> inventory
 
