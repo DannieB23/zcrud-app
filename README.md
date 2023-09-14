@@ -2,7 +2,7 @@
 
 ** 1. Clone this repository
 
-** 2. Front End **
+**2. Front End**
 In frontend folder -> npm install
 
 In frontend folder -> npm install @mui/material @mui/icons-material @emotion/react @emotion/styled
